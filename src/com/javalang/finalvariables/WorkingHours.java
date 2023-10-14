@@ -3,6 +3,10 @@ package com.javalang.finalvariables;
 import com.javalang.utils.Employee;
 
 public class WorkingHours {
+	/**
+	 * hằng số trong java: final + data-type + name_variable = value
+	 * data type: primitive hay String
+	 * */
 	/*
 	 * biến final phải gán giá trị rõ ràng vì nó không có giá trị mặc định
 	 * một khi đã khởi tạo giá trị rùi thì không thể thay đổi
