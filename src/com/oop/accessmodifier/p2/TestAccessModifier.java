@@ -1,14 +1,16 @@
 package com.oop.accessmodifier.p2;
 
+import com.oop.accessmodifier.p1.A3;
+
 public class TestAccessModifier {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		B1 b1 = new B1(2);
-		int b1Salary = b1.getSalary();
-		B1 b2 = new B1(4);
-		int b2Salary = b2.getSalary();
-		System.out.println(b1Salary + ";" + b2Salary);
+		
+		A3 a3 = new A3();
+		System.out.println(a3);
+		B1 b1 = new B1();
+		System.out.println(b1);
 	}
 
 }
