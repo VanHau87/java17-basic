@@ -2,7 +2,7 @@ package com.oop.accessmodifier.p1;
 
 import java.util.UUID;
 /**
- * A1 và A2 ở cùng package
+ * A1 và A2 ở cùng package, ngoại trừ private ra, còn lại điều có thể access
  * */
 public class A2 {
 	String dept;

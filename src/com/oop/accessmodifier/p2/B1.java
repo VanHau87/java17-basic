@@ -5,8 +5,8 @@ import java.util.UUID;
 import com.oop.accessmodifier.p1.A1;
 
 /**
- * B1 thừa kế A1, nên B1 cũng sẽ có các thuộc tính của A1 ngoại trừ private
- *
+ * B1 thừa kế A1, nên B1 cũng sẽ thừa kế các thuộc tính của A1 ngoại trừ private, default
+ * B1 và A1 khác package nên chỉ có thể truy cập được public 
  */
 public class B1 extends A1{
 	String address;
