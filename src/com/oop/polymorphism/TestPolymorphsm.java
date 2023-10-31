@@ -6,6 +6,8 @@ public class TestPolymorphsm {
 		// TODO Auto-generated method stub
 		User refUser = new Editor();
 		//user.approveReview;//compile error
+		((Editor) refUser).approveReview();
+		
 		//refUser.postAReview();
 		Editor editor = new Editor();
 		editor.approveReview();

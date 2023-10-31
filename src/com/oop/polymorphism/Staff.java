@@ -7,4 +7,5 @@ public class Staff extends User{
 	public void postAReview() {
 		System.out.println("Staff: postAReview");
 	}
+	
 }
