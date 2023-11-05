@@ -17,7 +17,7 @@ public class TestPolymorphsm {
 		print(staff);
 		print(editor);
 		print(user);
-		editor.postAReview();
+		editor.postAReview("Update for overriding method test");
 		refUser.saveWebLink();
 		
 	}
